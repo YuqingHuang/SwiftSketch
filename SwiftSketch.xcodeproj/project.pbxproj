@@ -100,7 +100,6 @@
 		49494C9D1B68D91C0061498B /* SwiftSketch */ = {
 			isa = PBXGroup;
 			children = (
-				49F5A7441B788E9D00ED0A26 /* Images */,
 				49F5A7431B788DEE00ED0A26 /* FeatureHomeAndNav */,
 				49F5A7311B78849600ED0A26 /* Utilities */,
 				49F5A72D1B7880B200ED0A26 /* Shared */,
@@ -224,13 +223,6 @@
 			children = (
 			);
 			path = FeatureHomeAndNav;
-			sourceTree = "<group>";
-		};
-		49F5A7441B788E9D00ED0A26 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		E02028BD729E87774EF1900E /* Frameworks */ = {
@@ -523,9 +515,11 @@
 			baseConfigurationReference = 3CC000F0DB2910F4919A79B8 /* Pods-SwiftSketch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftSketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -534,9 +528,11 @@
 			baseConfigurationReference = 03A90683A10E685A0B002D6C /* Pods-SwiftSketch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftSketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
